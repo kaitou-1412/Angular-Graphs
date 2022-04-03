@@ -15,6 +15,11 @@ Go to angular.json and add:
     "src/styles.scss"
 ]
 
+A few resources:
+[Line Chart](https://www.tutsmake.com/angular-13-line-chart-example/)
+[Bar Chart](https://www.tutsmake.com/angular-13-bar-chart-example/)
+[Pie Chart](https://www.tutsmake.com/angular-13-pie-chart-using-chart-js-example/)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
