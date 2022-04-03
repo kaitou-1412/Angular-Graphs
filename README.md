@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
+## Setup and References
+
+ng new angular-graphs
+npm install bootstrap --save
+npm install ng2-charts@2.4.2 --save --legacy-peer-deps
+npm install chart.js@2.9.4 --save --legacy-peer-deps
+
+Go to angular.json and add:
+"styles": [
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "src/styles.scss"
+]
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
